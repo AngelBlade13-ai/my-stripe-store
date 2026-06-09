@@ -51,8 +51,8 @@ src/
 Create `.env.local` in the project root:
 
 ```env
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your_publishable_key
-STRIPE_SECRET_KEY=sk_test_your_secret_key
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
 ```
 
 Use Stripe test keys only while developing this project. The public key is used by the browser, and the secret key is only used inside the API route.
